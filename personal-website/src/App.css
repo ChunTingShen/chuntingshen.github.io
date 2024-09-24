@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+nav a {
+  color: #61dafb;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.about-section, .projects-section, .contact-section {
+  padding: 20px;
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #282c34;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section label {
+  margin-bottom: 10px;
+}
+
+.contact-section button {
+  background-color: #61dafb;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
