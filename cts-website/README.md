@@ -18,6 +18,20 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+
+### `npm run deploy`
+
+Change to main branch. Run npm run build locally to ensure it creates the statics/ folder containing the production-ready version of your site.
+
+Deploy with npm run deploy. This will push the build/ folder to the gh-pages branch.
+
+After deployment, your GitHub repository should have two branches:
+
+- main (or your default branch) for source code.
+- gh-pages for the built version of your website.
+
+Deployed website will now be available at https://chuntingshen.github.io/. The gh-pages branch will only contain the statics/ folder content, while your source code remains in the main branch.
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
