@@ -21,9 +21,6 @@ nav a {
   margin: 0 auto;
 }
 
-h2 {
-  color: #282c34;
-}
 
 ul {
   list-style-type: none;
@@ -57,4 +54,103 @@ li {
   position: absolute;
   width: 100%;
   bottom: 0;
+}
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif; /* Clean font for readability */
+  line-height: 1.6;                /* Improve readability */
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;       /* Light background for a fresh look */
+  color: #343a40;                   /* Dark text color for contrast */
+}
+
+/* Header Styles */
+header {
+  background: #007bff;             /* Header background color */
+  color: #ffffff;                   /* White text */
+  padding: 20px 0;                 /* Padding for spacing */
+  text-align: center;               /* Center text */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;                 /* Larger title font */
+}
+
+header nav {
+  margin-top: 10px;                /* Space between title and nav */
+}
+
+header nav a {
+  color: #ffffff;                   /* White text for links */
+  margin: 0 15px;                  /* Spacing between links */
+  text-decoration: none;            /* Remove underline */
+  transition: color 0.3s;          /* Smooth transition for hover effect */
+}
+
+header nav a:hover {
+  color: #ffc107;                   /* Change color on hover */
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px;                   /* Padding for main content */
+  max-width: 800px;                /* Limit width for readability */
+  margin: auto;                    /* Center main content */
+  background: #ffffff;             /* White background for sections */
+  border-radius: 8px;              /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Section Styles */
+h2 {
+  border-bottom: 2px solid #007bff; /* Underline effect for headings */
+  padding-bottom: 10px;            /* Space below heading */
+}
+
+.contact-section, .resume-section {
+  margin-bottom: 30px;             /* Space between sections */
+}
+
+/* Button Styles */
+button {
+  background-color: #007bff;       /* Button color */
+  color: white;                    /* Button text color */
+  border: none;                    /* Remove default border */
+  padding: 10px 15px;              /* Padding for button */
+  border-radius: 5px;              /* Rounded corners */
+  cursor: pointer;                  /* Pointer on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #0056b3;       /* Darker button on hover */
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;               /* Center footer text */
+  padding: 20px 0;                 /* Padding for footer */
+  background: #343a40;             /* Dark footer background */
+  color: #ffffff;                   /* White text */
+  margin-top: 30px;                /* Space above footer */
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2em;                 /* Smaller title on mobile */
+  }
+  
+  main {
+    padding: 10px;                  /* Less padding on mobile */
+  }
+  
+  button {
+    width: 100%;                    /* Full-width button on mobile */
+    margin-top: 10px;               /* Space above buttons */
+  }
 }

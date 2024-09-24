@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Welcome to My Personal Website</h1>
+        <h1>Chun-Ting Shen</h1>
         <nav>
           <a href="#about">About Me</a> | <a href="#projects">Projects</a> | <a href="#contact">Contact</a>
         </nav>
@@ -14,9 +14,13 @@ function App() {
       <section id="about" className="about-section">
         <h2>About Me</h2>
         <p>
-          Hi, I'm Chun-Ting Shen 沈俊廷, a data analyst and full-stack engineer with experience in Python, SQL, and JavaScript frameworks like Angular.
+          Hi, I'm Chun-Ting Shen 沈俊廷, a full-stack engineer and data analyst with experience in Python, SQL, and JavaScript frameworks like Angular.
           I enjoy solving problems with data and building applications that provide insights and solutions.
         </p>
+
+        <p>
+          I graduated frmo New York University with a Masters degree in Information Systems. And I currently live in New York City.
+          </p>
       </section>
 
       <section id="projects" className="projects-section">
@@ -30,21 +34,16 @@ function App() {
 
       <section id="contact" className="contact-section">
         <h2>Contact Me</h2>
-        <form action="https://formspree.io/f/your-form-id" method="POST">
-          <label>
-            Name:
-            <input type="text" name="name" required />
-          </label>
-          <label>
-            Email:
-            <input type="email" name="email" required />
-          </label>
-          <label>
-            Message:
-            <textarea name="message" required></textarea>
-          </label>
-          <button type="submit">Send</button>
-        </form>
+        <div>
+          <p>Email: <a href="mailto:morrisshen25@gmail.com">morrisshen25@gmail.com</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/chuntingshen/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
+          {/* New Resume Download Section */}
+          <div className="resume-section">
+            <a href="/CV_Chun-Ting_Shen.pdf" download>
+              <button>Download Resume</button>
+            </a>
+          </div>
+        </div>
       </section>
 
       <footer className="footer">
