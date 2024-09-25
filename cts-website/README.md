@@ -21,7 +21,7 @@ You may also see any lint errors in the console.
 
 ### `npm run deploy`
 
-Change to main branch. Run npm run build locally to ensure it creates the statics/ folder containing the production-ready version of your site.
+Change to main branch before running this command. Run npm run build locally to ensure it creates the statics/ folder containing the production-ready version of your site.
 
 Deploy with npm run deploy. This will push the build/ folder to the gh-pages branch.
 

@@ -1,0 +1,15 @@
+
+/* Header Styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #282c34;
+    color: #ffffff;                   /* White text */
+    padding: 20px 0;                 /* Padding for spacing */
+    text-align: center;               /* Center text */
+  }
+
+  

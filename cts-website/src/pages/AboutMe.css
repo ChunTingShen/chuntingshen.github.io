@@ -1,0 +1,15 @@
+
+.skill-bar {
+    background: #e0e0e0; /* Light background for skill bars */
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .skill {
+    background: #282c34; /* Skill bar color */
+    height: 25px;
+    border-radius: 5px;
+    color: white;
+    text-align: center; /* Center text */
+    line-height: 25px; /* Align text vertically */
+  }

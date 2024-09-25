@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  flex: 1; /* Grow this section to fill available space */
+  padding: 140px 20px;
+  overflow-y: auto; /* Enable vertical scrolling */
+  background-color: #f8f9fa; /* Light background for main content */
+
 }
 
 .App-header {
@@ -40,12 +45,6 @@ li {
   margin-bottom: 10px;
 }
 
-.contact-section button {
-  background-color: #61dafb;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-}
 
 .footer {
   background-color: #282c34;
@@ -64,6 +63,9 @@ body {
   padding: 0;
   background-color: #f8f9fa;       /* Light background for a fresh look */
   color: #343a40;                   /* Dark text color for contrast */
+  height: 100%; /* Full height for body and html */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+
 }
 
 /* Header Styles */
@@ -99,9 +101,6 @@ main {
   padding: 20px;                   /* Padding for main content */
   max-width: 800px;                /* Limit width for readability */
   margin: auto;                    /* Center main content */
-  background: #ffffff;             /* White background for sections */
-  border-radius: 8px;              /* Rounded corners */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 /* Section Styles */
@@ -116,7 +115,7 @@ h2 {
 
 /* Button Styles */
 button {
-  background-color: #007bff;       /* Button color */
+  background-color: #0c437e;       /* Button color */
   color: white;                    /* Button text color */
   border: none;                    /* Remove default border */
   padding: 10px 15px;              /* Padding for button */
@@ -149,8 +148,4 @@ footer {
     padding: 10px;                  /* Less padding on mobile */
   }
   
-  button {
-    width: 100%;                    /* Full-width button on mobile */
-    margin-top: 10px;               /* Space above buttons */
-  }
 }
