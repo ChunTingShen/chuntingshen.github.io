@@ -1,7 +1,9 @@
 // src/pages/AboutMe.js
 import React from 'react';
 import './AboutMe.css';
-
+import EducationalBackground from './Background';
+import WorkExperience from './WorkExperience';
+import Skills from './Skills';
 
 
 const AboutMe = () => {
@@ -9,8 +11,8 @@ const AboutMe = () => {
     <section id="about" className="about-section">
       <h2>About Me</h2>
         <p>
-        Hi, I'm Chun-Ting Shen 沈俊廷, a full-stack engineer and data analyst with experience in Python, SQL, and JavaScript frameworks like Angular.
-        I enjoy solving problems with data and building applications that provide insights and solutions.
+            Hi, I'm Chun-Ting Shen 沈俊廷, a full-stack engineer and data analyst with experience in Python, SQL, and JavaScript frameworks using Angular and React.
+            I enjoy solving problems with data and building applications that provide insights and solutions.
         </p>
 
         <p>
@@ -21,25 +23,14 @@ const AboutMe = () => {
             I currently live in New York City.
         </p>
 
+        <div className="photo-container">
+          <img src="/img/cts_0925.jpg" alt="Error loading" className="profile-photo" />
+        </div>
 
-        <section className="skills">
-        <h2>Skills</h2>
-        <div className="skill-bar">
-            <div className="skill" style={{ width: '90%' }}>JavaScript</div>
-        </div>
-        <div className="skill-bar">
-            <div className="skill" style={{ width: '87%' }}>Python</div>
-        </div>
-        <div className="skill-bar">
-            <div className="skill" style={{ width: '90%' }}>Angular</div>
-        </div>
-        <div className="skill-bar">
-            <div className="skill" style={{ width: '75%' }}>SQL</div>
-        </div>
-        <div className="skill-bar">
-            <div className="skill" style={{ width: '80%' }}>Data Analysis</div>
-        </div>
-        </section>
+        <EducationalBackground />
+        <WorkExperience />
+        <Skills />
+
     </section>
   );
 };
