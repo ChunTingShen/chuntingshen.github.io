@@ -1,0 +1,45 @@
+.skills {
+    max-width: 800px;
+    margin: 0 auto;
+    /* padding: 20px; */
+  }
+  
+  .section-header {
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #333;
+    padding: 8px;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Add space between chips */
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    list-style-type: none;
+  }
+  
+  .chip {
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    display: inline-block;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .chip:hover {
+    background-color: #d0d0d0;
+  }
+  
