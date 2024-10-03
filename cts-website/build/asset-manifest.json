@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e35a71c.css",
-    "main.js": "/static/js/main.0f65a311.js",
+    "main.css": "/static/css/main.8b526a5d.css",
+    "main.js": "/static/js/main.a896038e.js",
     "static/js/453.5be3fc21.chunk.js": "/static/js/453.5be3fc21.chunk.js",
+    "static/media/CV_Chun-Ting_Shen.pdf": "/static/media/CV_Chun-Ting_Shen.b5742d5adc03da1259f5.pdf",
     "index.html": "/index.html",
-    "main.4e35a71c.css.map": "/static/css/main.4e35a71c.css.map",
-    "main.0f65a311.js.map": "/static/js/main.0f65a311.js.map",
+    "main.8b526a5d.css.map": "/static/css/main.8b526a5d.css.map",
+    "main.a896038e.js.map": "/static/js/main.a896038e.js.map",
     "453.5be3fc21.chunk.js.map": "/static/js/453.5be3fc21.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e35a71c.css",
-    "static/js/main.0f65a311.js"
+    "static/css/main.8b526a5d.css",
+    "static/js/main.a896038e.js"
   ]
 }
