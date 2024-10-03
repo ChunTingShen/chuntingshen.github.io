@@ -11,7 +11,7 @@ const AboutMe = () => {
     <section id="about" className="about-section">
       <h2>About Me</h2>
         <p>
-            Hi, I'm Chun-Ting Shen 沈俊廷, a full-stack engineer and data analyst with expertise in Python, SQL, and TypeScript frameworks using Angular and React.
+            Hi, I'm Chun-Ting Shen 沈俊廷, a Full-Stack Engineer and Data Analyst with expertise in Python, SQL, and TypeScript frameworks using Angular and React.
             I enjoy solving problems with data and building applications that provide solutions and insights.
         </p>
         

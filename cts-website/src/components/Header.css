@@ -7,9 +7,31 @@ header {
     right: 0;
     z-index: 1000;
     background-color: #282c34;
+    text-decoration: none;
     color: #ffffff;                   /* White text */
     padding: 20px 0;                 /* Padding for spacing */
     text-align: center;               /* Center text */
   }
 
   
+  .nav-link {
+    text-decoration: none;
+    color: #ffffff; /* or your default link color */
+    padding: 5px;
+  }
+  
+  .nav-link:hover {
+    text-decoration: none;
+  }
+  
+  .no-style {
+    pointer-events: none; /* Disable link behavior */
+    color: inherit; /* Use default text color */
+    cursor: default; /* Change the cursor to default */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .no-style:hover {
+    text-decoration: none; /* Ensure no underline on hover */
+    color: inherit;
+  }
