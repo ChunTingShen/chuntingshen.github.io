@@ -6,6 +6,6 @@ footer {
     z-index: 1000;
     background: #343a40; 
     color: #ffffff;
-    padding: 20px 0; /* Padding for the footer */
+    padding: 10px 0; /* Padding for the footer */
     text-align: center; /* Center footer text */
   }

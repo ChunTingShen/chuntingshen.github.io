@@ -11,16 +11,12 @@ const AboutMe = () => {
     <section id="about" className="about-section">
       <h2>About Me</h2>
         <p>
-            Hi, I'm Chun-Ting Shen 沈俊廷, a full-stack engineer and data analyst with experience in Python, SQL, and JavaScript frameworks using Angular and React.
-            I enjoy solving problems with data and building applications that provide insights and solutions.
+            Hi, I'm Chun-Ting Shen 沈俊廷, a full-stack engineer and data analyst with expertise in Python, SQL, and TypeScript frameworks using Angular and React.
+            I enjoy solving problems with data and building applications that provide solutions and insights.
         </p>
-
-        <p>
-            New York University Graduate (2022) with a Masters degree in Information Systems.
-        </p> 
         
         <p>
-            I currently live in New York City.
+            Currently live in New York City. I love cycling and pickleball. You might find me jogging by the Hudson River occasionally.        
         </p>
 
         <div className="photo-container">

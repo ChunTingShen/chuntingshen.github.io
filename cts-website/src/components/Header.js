@@ -7,7 +7,7 @@ import './Header.css'; // Import CSS specific to this component
 const Header = () => {
   return (
     <header className="App-header">
-        <h1>Chun-Ting's Website</h1>
+        <h1>Chun-Ting's Homepage</h1>
 
         <nav>
         <Link to="/">Home</Link> | 

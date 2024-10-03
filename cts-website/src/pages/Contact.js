@@ -1,5 +1,6 @@
 // src/pages/Contact.js
-import React from 'react';
+import React, { useState } from 'react';
+import ContactMe from './ContactMe';
 
 const Contact = () => {
   return (
@@ -9,11 +10,8 @@ const Contact = () => {
         <div>
         <p>Email: <a href="mailto:morrisshen25@gmail.com">morrisshen25@gmail.com</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/chuntingshen/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
-        <div className="resume-section">
-            <a href="/files/CV_Chun-Ting_Shen.pdf" download>
-            <button>Download Resume</button>
-            </a>
-        </div>
+        <p>Resume: <a href="/files/CV_Chun-Ting_Shen.pdf">Download</a></p>
+        <ContactMe />
         </div>
         
     </section>

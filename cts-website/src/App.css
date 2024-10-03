@@ -111,6 +111,9 @@ h2 {
 
 .contact-section, .resume-section {
   margin-bottom: 30px;             /* Space between sections */
+  button {
+    background-color: #0c437e;
+  }
 }
 
 /* Button Styles */
