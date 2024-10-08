@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=/" />
+    <script type="text/javascript">
+      // This script ensures that the current path is preserved when redirecting
+      var redirectTo = window.location.pathname;
+      window.location.href = "/" + redirectTo;
+    </script>
   </head>
   <body>
-    <p>Redirecting to <a href="/">home</a>...</p>
+    <p>Redirecting...</p>
   </body>
 </html>
