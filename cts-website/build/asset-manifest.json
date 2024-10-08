@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.527bd142.css",
-    "main.js": "/static/js/main.6aa9861f.js",
+    "main.js": "/static/js/main.b73dddea.js",
     "static/js/453.5be3fc21.chunk.js": "/static/js/453.5be3fc21.chunk.js",
     "static/media/CV_Chun-Ting_Shen.pdf": "/static/media/CV_Chun-Ting_Shen.b5742d5adc03da1259f5.pdf",
     "index.html": "/index.html",
     "static/media/strava.svg": "/static/media/strava.6ad3ccee1fb2577aed44c5f27a6c8c3a.svg",
     "main.527bd142.css.map": "/static/css/main.527bd142.css.map",
-    "main.6aa9861f.js.map": "/static/js/main.6aa9861f.js.map",
+    "main.b73dddea.js.map": "/static/js/main.b73dddea.js.map",
     "453.5be3fc21.chunk.js.map": "/static/js/453.5be3fc21.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.527bd142.css",
-    "static/js/main.6aa9861f.js"
+    "static/js/main.b73dddea.js"
   ]
 }
