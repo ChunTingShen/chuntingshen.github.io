@@ -20,7 +20,7 @@ const AboutMe = () => {
         </p>
         
         <p>
-            Currently live in New York City. I love cycling and pickleball. You might find me jogging by the Hudson River occasionally.        
+            Currently live in New York City. I love classical music, cycling and pickleball. You might find me jogging by the Hudson River occasionally.        
         </p>
 
         <div className="photo-container">
